@@ -1,0 +1,71 @@
+/* Container to center the table */
+.config-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 60vh;
+    width: 100vw;
+    background-color: #f8f9fa;
+    position: relative; /* Allows positioning elements inside */
+    margin-bottom: 20px;
+  }
+  
+  /* Home Button */
+  .home-button {
+    position: absolute;
+    top: 10px;  /* 10px margin from the top */
+    left: 10px; /* 10px margin from the left */
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1; /* Ensure it is above other elements */
+  }
+  
+  .home-button:hover {
+    background-color: darkred;
+  }
+  
+  /* Table Styling */
+  .config-table {
+    width: 50%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    margin: auto;
+  }
+  
+  /* Table header */
+  .config-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Table cells */
+  .config-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Alternate row color */
+  .config-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Input fields */
+  .config-input {
+    width: 80%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  

@@ -1,6 +1,6 @@
 .dashboard-container {
     background-color: #f4f7fa;
-    padding: 20px;
+    padding: 10px;
   }
   
   .custom-table {
@@ -12,11 +12,18 @@
   }
   
   .custom-table th, .custom-table td {
-    padding: 12px;
+    padding: 8px;
     text-align: center;
   }
   
   .input-row input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .output-row input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ddd;
@@ -34,4 +41,22 @@
     border: 1px solid #ccc;
     border-radius: 4px;
   }
+
+  .config-button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .config-button:hover {
+    background-color: darkred; /* Darker red on hover */
+  }
+  
   
