@@ -1,0 +1,33 @@
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer .social-icons {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer .social-icons li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #007bff; /* Change to a light blue on hover */
+  }
+  
+  .footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc; /* Light gray text for copyright notice */
+  }
+  
