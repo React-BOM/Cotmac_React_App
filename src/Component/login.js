@@ -12,6 +12,7 @@ const Login = () => {
     e.preventDefault();
 
     // Make API call to your backend server
+    //API call from backend\server.js
     try {
       const response = await fetch("http://localhost:5000/login", {
         method: "POST",
