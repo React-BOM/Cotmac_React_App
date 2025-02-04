@@ -52,11 +52,17 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 10px;
+    /* margin: 10px; */
   }
   
   .config-button:hover {
     background-color: darkred; /* Darker red on hover */
   }
   
+  .dashboard-container th{
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
   
